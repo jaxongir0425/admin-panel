@@ -1,7 +1,8 @@
-.App {
-    text-align: center;
+/* App Style */
+
+.container {
+    display: flex;
+    margin-top: 10px;
 }
 
-.App-link {
-    color: #61dafb;
-}
+/* App Style */
