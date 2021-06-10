@@ -1,0 +1,14 @@
+/* Chart Style */
+
+.chart {
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 8px -1px #b6afaf;
+    box-shadow: 0 0 11px -1px #b6afaf;
+}
+
+.chartTitle {
+    margin-bottom: 20px;
+}
+
+/* Chart Style */

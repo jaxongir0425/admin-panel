@@ -1,0 +1,168 @@
+/* User Page Style */
+
+.user {
+    flex: 4;
+    padding: 20px;
+}
+
+.userTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userTitle {
+
+}
+
+.userAddButton {
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: teal;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.userContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.userShow {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 8px -1px #b6afaf;
+    box-shadow: 0 0 11px -1px #b6afaf;
+}
+
+.userShowTop {
+    display: flex;
+    align-items: center;
+}
+
+.userShowImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userShowTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.userShowUsername {
+    font-weight: 600;
+}
+
+.userShowTitle {
+    font-weight: 300;
+}
+
+.userShowBottom {
+    margin-top: 20px;
+}
+
+.userShowBottomTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+}
+
+.userShowInfo {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #444;
+}
+
+.userShowIcon {
+    font-size: 20px !important;
+}
+
+.userShowInfoTitle {
+    margin-left: 10px;
+}
+
+.userUpdate {
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 8px -1px #b6afaf;
+    box-shadow: 0 0 11px -1px #b6afaf;
+    margin-left: 20px;
+}
+
+.userUpdateTitle {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.userUpdateForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.userUpdateLeft {
+
+}
+
+.userUpdateItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.userUpdateItem > label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.userUpdateInput {
+    border: none;
+    width: 250px;
+    border-bottom: 1px solid gray;
+    outline: none;
+    height: 30px;
+}
+
+.userUpdateRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userUpdateUpload {
+    display: flex;
+    align-items: center;
+}
+
+.userUpdateImg {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.userUpdateIcon {
+    cursor: pointer;
+}
+
+.userUpdateButton {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+}
+
+/* User Page Style */

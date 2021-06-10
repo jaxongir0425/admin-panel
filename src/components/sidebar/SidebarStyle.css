@@ -3,7 +3,7 @@
 .sidebar {
     flex: 1;
     height: 100vh;
-    background-color: #f5eded;
+    background-color: #f8f4f4;
     position: sticky;
     top: 50px;
 }
@@ -25,6 +25,11 @@
 .sidebarList {
     list-style: none;
     padding: 5px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
 }
 
 .sidebarListItem {
