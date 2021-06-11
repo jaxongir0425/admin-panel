@@ -8,4 +8,5 @@
 4. "react-router-dom": "^5.2.0",
 5. "recharts": "^2.0.9",
 
-
+# Deploy
+https://admin-panel-2.netlify.app/
