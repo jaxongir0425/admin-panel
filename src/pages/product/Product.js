@@ -4,6 +4,8 @@ import {Link} from "react-router-dom";
 import Chart from "../../components/chart/Chart";
 import {productData} from "../../dummyData";
 import airPods2 from "../../image/airPods2.png";
+import avatar from "../../image/avatar.png";
+import {Publish} from "@material-ui/icons";
 
 function Product() {
     return (
@@ -46,7 +48,32 @@ function Product() {
                     </div>
                 </div>
                 <div className="productBottom">
-
+                    <form className="productFrom">
+                        <div className="productFromLeft">
+                            <label>Product Name</label>
+                            <input type="text" placeholder="Apple AirPod"/>
+                            <label>In Stock</label>
+                            <select name="inStock" id="idStock">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                            <label>Active</label>
+                            <select name="active" id="active">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+                        <div className="productFromRight">
+                            <div className="productUpload">
+                                <img src={avatar} alt="Avatar Image" className="productUploadImg"/>
+                                <label for="file">
+                                    <Publish/>
+                                </label>
+                                <input type="file" id="file" style={{display: "none"}}/>
+                            </div>
+                            <button className="productButton">Update</button>
+                        </div>
+                    </form>
                 </div>
             </div>
 
