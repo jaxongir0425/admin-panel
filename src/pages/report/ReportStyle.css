@@ -5,4 +5,10 @@
     padding: 20px;
 }
 
+.reportImg {
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
 /* ReportStyle Style */

@@ -5,4 +5,10 @@
     padding: 20px;
 }
 
+.salesImg {
+    width: 90%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
 /* Sales Style */

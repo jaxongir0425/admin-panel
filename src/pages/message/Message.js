@@ -1,5 +1,6 @@
 import React from 'react';
 import "./MessageStyle.css";
+import messages from "../../image/messages.png";
 
 function Message() {
     return (
@@ -7,6 +8,7 @@ function Message() {
 
             <div className="message">
                 <h1>Message Page</h1>
+                <img src={messages} alt="Messages Image" className="messageImg"/>
             </div>
 
         </>
